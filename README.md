@@ -1,2 +1,2 @@
 # PandasBasics
-This repo conatins the basic methods of Data maniputaion and Data analysis
+This repo contains the basic methods of Data maniputaion and Data analysis
