@@ -1,0 +1,7 @@
+In pandas we have types
+1.NAN-not a number
+2.None-for object data types
+
+isnull()
+ -True  NaN is missing
+ -False -vlaue is present
