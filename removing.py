@@ -14,6 +14,6 @@ print(df)
 #df.drop(columns=["columnname"],inplace=True) inPlace =True means direct delete from Data frame
 print("After Droping the cloumns")
 
-df.drop(columns=["Age","Salary"],inplace=True)
+df.drop(columns=["Age",],inplace=True)
 
 print(df)
