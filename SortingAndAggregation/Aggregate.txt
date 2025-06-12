@@ -1,0 +1,6 @@
+-sum()
+-min()
+-max()
+-count()
+-std()
+-mean()

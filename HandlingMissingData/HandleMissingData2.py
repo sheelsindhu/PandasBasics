@@ -11,6 +11,9 @@ emp={
 df = pd.DataFrame(emp)
 print(df)
 # df.fillna(0,inplace=True) #This is for all the columns and rows of data frame
-df["Name"].fillna("A",inplace=True)  #This is only for Name Column
+# df["Name"].fillna("A",inplace=True)  #This is only for Name Column
+df["Age"].fillna(df["Age"].mean(),inplace=True)
+df["Salary"].fillna(df["Salary"].mean(),inplace=True)
 print("After filling NAN with Zero")
 print(df)
+
